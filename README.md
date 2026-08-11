@@ -1,366 +1,220 @@
-# I ❤️ IGS — Free Online CAD & Drawing Viewer
+# I ❤️ IGS — CAD Viewer & Technical Drawing Documentation
 
 <p align="center">
-  <strong>Browser-based CAD viewer and technical drawing workspace for IGES, STEP, STL, DXF, DWG, and PDF files.</strong>
+  <strong>Practical documentation for viewing, inspecting, measuring, and creating technical drawing workflows from CAD files in the browser.</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.iloveigs.com/">
-    <strong>🌐 Visit iLoveIGS — www.iloveigs.com</strong>
-  </a>
+  <a href="https://www.iloveigs.com/"><strong>🌐 Open iLoveIGS</strong></a>
+  &nbsp;•&nbsp;
+  <a href="https://www.iloveigs.com/"><strong>Try the Online CAD Viewer</strong></a>
+</p>
+
+<p align="center">
+  📱 Mobile &nbsp;•&nbsp; 📲 Tablet &nbsp;•&nbsp; 💻 Laptop &nbsp;•&nbsp; 🖥️ Desktop
 </p>
 
 ---
 
-## 🚀 About iLoveIGS
+## 📖 About This Documentation
 
-**iLoveIGS** is an online CAD file viewer and technical drawing workspace designed for engineers, designers, machinists, manufacturing professionals, students, and CAD users.
+Welcome to the documentation hub for **iLoveIGS**, a browser-based CAD viewer and technical drawing workspace for supported engineering and drawing formats.
 
-It provides browser-based tools for opening, inspecting, measuring, and working with supported CAD and drawing files without requiring traditional desktop CAD software.
+This repository is written for people who work with CAD in the real world: **mechanical engineers, CAD designers, CNC programmers, VMC machinists, manufacturing teams, students, educators, and anyone who needs to inspect a CAD file quickly.**
 
-The platform focuses on practical CAD inspection workflows, including:
+The documentation explains both the product and the concepts behind common CAD exchange workflows. It is intended to be useful even when you are simply trying to answer a question such as:
 
-- 3D CAD model visualization
-- IGES and STEP file viewing
-- CAD model measurement
-- Bounding-box dimensions
-- Standard engineering views
-- Technical drawing generation
-- 2D drafting workflows
-- CAD-style model navigation
-- Drawing and PDF workflows
+> *“I received an IGES or STEP file. How can I open it, inspect the geometry, check dimensions, and understand the model without installing a full CAD package?”*
 
-🌐 **Website:** https://www.iloveigs.com/
-
-> **Important:** File processing and privacy behavior may depend on the specific feature and implementation. Refer to the live website for the current behavior of each tool.
+🌐 **iLoveIGS:** https://www.iloveigs.com/
 
 ---
 
-## 🌟 Why iLoveIGS?
+## ⚡ What You Can Do with iLoveIGS
 
-### No Traditional CAD Installation
+Depending on the file type and current application capabilities, iLoveIGS can be used for:
 
-iLoveIGS runs directly in a modern web browser, making CAD inspection accessible without installing a large desktop CAD application.
+- 🔓 Opening supported CAD and drawing files in a web browser
+- 🧊 Inspecting 3D geometry
+- 🔭 Orbiting, panning, zooming, and fitting models
+- 🧭 Switching between standard engineering views
+- 📏 Checking point-to-point measurements and coordinate differences
+- 📐 Reviewing overall model dimensions
+- 📝 Moving from 3D inspection into technical drawing workflows
+- 🖨️ Preparing drawing layouts for printing or PDF output where supported
+- 🔗 Sharing a useful model-view state where the application provides that capability
 
-### CAD-Focused Workflow
-
-The interface is designed around common engineering inspection tasks such as viewing geometry, changing standard views, measuring models, and preparing technical drawings.
-
-### Multiple CAD Formats
-
-The platform supports several commonly used engineering and technical file formats.
-
-### Browser-Based Experience
-
-Users can access the tools from supported desktop browsers without requiring a dedicated CAD workstation for basic viewing and inspection workflows.
+> **Feature note:** iLoveIGS continues to evolve. File-format support, controls, and individual features may change. The live application is the authoritative source for the current feature set.
 
 ---
 
-# 📂 Supported File Formats
+## 📱 Cross-Device & Cross-Platform Access
 
-| Format | File Extension | Typical Use |
-| :--- | :--- | :--- |
-| **IGES** | `.igs`, `.iges` | CAD data exchange |
-| **STEP** | `.step`, `.stp` | 3D product and CAD data exchange |
-| **STL** | `.stl` | 3D mesh and manufacturing models |
-| **DXF** | `.dxf` | 2D CAD drawings |
-| **DWG** | `.dwg` | CAD drawing data |
-| **PDF** | `.pdf` | Technical drawings and documents |
+iLoveIGS is designed as a browser-based experience and can be accessed from modern devices, including:
 
-> Format support and available operations can change as iLoveIGS evolves. Check the live application for the latest capabilities.
-
----
-
-# ✨ Key Features
-
-## 1. 3D CAD Model Inspection
-
-iLoveIGS provides tools for inspecting 3D CAD geometry directly in the browser.
-
-Features include:
-
-- Shaded model display
-- Edge visualization
-- Interactive orbit
-- Pan
-- Zoom
-- Dynamic camera movement
-- Standard engineering views
-- Isometric view
-- Front view
-- Back view
-- Left view
-- Right view
-- Top view
-- Bottom view
-- Model fitting
-- Bounding-box information
-
-These tools make it easier to quickly understand the geometry and overall dimensions of a CAD model.
-
----
-
-## 2. CAD-Style Navigation
-
-The viewer provides interactive controls designed around common CAD inspection workflows.
-
-Depending on the active tool and application mode, users can work with:
-
-- Geometry selection
-- Window selection
-- Crossing selection
-- Pan
-- Orbit
-- Zoom
-- Fit-to-model
-- Contextual display controls
-
-The goal is to make browser-based CAD inspection feel familiar to users who already work with professional engineering software.
-
----
-
-## 3. Measurement Tools
-
-Measurement is an important part of CAD inspection.
-
-iLoveIGS provides tools for examining model geometry and obtaining dimensional information.
-
-### Point-to-Point Measurement
-
-Users can select points on a model to calculate:
-
-- 3D distance
-- Delta X
-- Delta Y
-- Delta Z
-
-The measurement workflow can provide a visual measurement line between selected points.
-
----
-
-## 4. Model Dimensions
-
-The viewer can provide overall model dimensions based on the model bounding box.
-
-Typical dimensional information includes:
-
-```text
-X Dimension
-Y Dimension
-Z Dimension
-```
-
-This is useful for quickly understanding the approximate overall size of a loaded model.
-
----
-
-# 📐 Technical Drawing & Drafting
-
-iLoveIGS extends beyond basic 3D viewing with a technical drawing workflow.
-
-The drafting workspace is designed to help users create an engineering-style representation of a 3D model.
-
-### Drawing Views
-
-Supported drawing workflows can include views such as:
-
-- Front
-- Top
-- Right
-- Isometric
-
-### Drawing Sheet
-
-The technical drawing workspace can arrange model views on a drawing-sheet layout with:
-
-- Drawing borders
-- View placement
-- Dimensions
-- Title-block information
-- Printable drawing layout
-
-### Print Workflow
-
-The drawing workspace is designed with printing in mind, allowing the technical drawing area to be separated from the surrounding application interface when printing.
-
----
-
-# 🔗 Shareable CAD View
-
-iLoveIGS can provide shareable camera/view information for supported workflows.
-
-A generated link can contain information describing the current viewing state, such as:
-
-- Camera position
-- Camera target
-- Camera orientation
-- Zoom
-- Display mode
-
-This can make it easier to communicate a particular model view with another person.
-
----
-
-# 🛠️ Technical Specifications
-
-iLoveIGS is designed as a modern browser-based CAD application.
-
-| Component | Technology |
+| Device | Typical Use |
 | :--- | :--- |
-| 3D Rendering | Three.js / WebGL |
-| STEP / IGES Processing | OpenCASCADE-based WebAssembly tooling |
-| DXF Processing | DXF parsing technology |
-| PDF Processing | PDF.js |
-| Application Architecture | Browser-based JavaScript |
-| Module System | ES Modules |
-| 3D Visualization | WebGL |
-| UI | HTML / CSS / JavaScript |
+| 📱 **Mobile phone** | Quick file/reference checks and lightweight inspection |
+| 📲 **Tablet** | Portable CAD review and drawing/reference work |
+| 💻 **Laptop** | General CAD inspection and engineering workflows |
+| 🖥️ **Desktop** | Larger models, detailed inspection, measurement, and drafting |
 
-### Open-Source Technologies
-
-The project ecosystem makes use of established open-source technologies and libraries where applicable.
-
-- [Three.js](https://threejs.org/)
-- [OpenCASCADE](https://www.opencascade.com/)
-- [occt-import-js](https://github.com/kovacsv/occt-import-js)
-- [dxf-parser](https://github.com/gdsestimating/dxf-parser)
-- [PDF.js](https://mozilla.github.io/pdf.js/)
-
-Each third-party project remains subject to its own license and terms.
-
----
-
-# 🧑‍💻 Who Can Use iLoveIGS?
-
-iLoveIGS can be useful for:
-
-- Mechanical engineers
-- CAD designers
-- CNC programmers
-- VMC machinists
-- Manufacturing engineers
-- Product designers
-- Tool designers
-- Students
-- Engineering educators
-- CAD/CAM professionals
-- Manufacturing companies
-- Prototype developers
-- Hobbyists working with CAD models
-
----
-
-# 🔍 Common CAD Workflows
-
-iLoveIGS can be useful for workflows such as:
-
-### CAD Model Inspection
-
-Open a supported CAD file and inspect its geometry from different standard views.
-
-### Manufacturing Preparation
-
-Quickly inspect a model before machining or manufacturing.
-
-### Dimension Checking
-
-Use model measurements and bounding dimensions to understand geometry.
-
-### Technical Drawing Reference
-
-Generate or inspect drawing views for engineering communication.
-
-### CAD File Review
-
-Review CAD files without necessarily opening a full desktop CAD package.
+The experience depends on the device, browser, graphics capabilities, screen size, file complexity, and the feature being used. Large or highly detailed 3D models generally benefit from a more capable desktop or laptop.
 
 ---
 
 # 📚 Documentation
 
-This repository is intended to become the documentation and knowledge hub for iLoveIGS.
+### 🟢 Start Here
 
-Documentation will cover topics including:
+- [Getting Started](docs/getting-started.md) — First steps, file loading, interface orientation, and basic navigation.
+- [CAD Viewer Controls](docs/cad-viewer.md) — Mouse controls, display modes, camera movement, and standard views.
 
-- [Getting Started](docs/getting-started.md)
-- [IGES Files](docs/iges-files.md)
-- [STEP Files](docs/step-files.md)
-- [STL Files](docs/stl-files.md)
-- [CAD Viewer](docs/cad-viewer.md)
-- [Measurement Tools](docs/measurement-tools.md)
-- [Technical Drafting](docs/drafting.md)
-- [Troubleshooting](docs/troubleshooting.md)
+### 📐 CAD Inspection
 
-More documentation will be added as the platform develops.
+- [IGES Files](docs/iges-files.md) — IGES concepts, extensions, viewing considerations, and practical tips.
+- [STEP Files](docs/step-files.md) — STEP basics, solid-model exchange, and viewing considerations.
+- [Measurement Tools](docs/measurement-tools.md) — Point-to-point measurement, deltas, bounding dimensions, and verification guidance.
 
----
+### 📝 Drafting
 
-# 📖 CAD Guides
+- [Technical Drawing & Drafting](docs/drafting.md) — Standard views, drawing-sheet workflows, title blocks, dimensions, and printing.
 
-The repository can also contain educational resources covering topics such as:
+### 🧰 Support
 
-- What is an IGES file?
-- What is a STEP file?
-- IGES vs STEP
-- How to open IGES files
-- How to open STEP files
-- CAD file formats explained
-- 3D CAD viewer workflows
-- CAD model measurement
-- Technical drawing basics
-- Engineering drawing views
-- CAD inspection workflows
-- CAD data exchange
-
-These resources are intended to provide practical information for engineers, designers, machinists, students, and CAD users.
+- [Troubleshooting](docs/troubleshooting.md) — Common browser, WebGL, file-loading, performance, and display issues.
 
 ---
 
-# 🌐 iLoveIGS Website
+# 📖 Practical Guides
 
-The main iLoveIGS application is available at:
+These guides go beyond product instructions and explain the CAD concepts behind common workflows.
 
-**https://www.iloveigs.com/**
-
-Visit the website to access the latest version of the online CAD tools.
-
----
-
-# 🤝 Contributing
-
-Suggestions, documentation improvements, examples, and technical discussions are welcome.
-
-If you discover an issue or have an idea for improving the documentation, please open an issue in this repository.
-
-When contributing documentation, please aim for:
-
-- Accurate technical information
-- Clear explanations
-- Practical examples
-- Reproducible workflows
-- Useful references
-- CAD-focused terminology
+- [IGES vs STEP](guides/iges-vs-step.md) — Understand the practical differences between the two exchange formats.
+- [How to Open an IGES File Online](guides/how-to-open-iges.md) — A step-by-step workflow for opening `.igs` and `.iges` files.
+- [Browser-Based CAD Viewer Guide](guides/cad-file-viewer-guide.md) — When an online viewer makes sense and what to consider before using one.
 
 ---
 
-# 📜 License
+# 🧪 Examples & Resources
 
-The documentation and original materials in this repository are provided under the license specified in the repository.
+The `examples/` directory is reserved for small, practical CAD-learning examples and reproducible documentation workflows.
 
-Third-party libraries, tools, specifications, and resources remain subject to their respective licenses and terms.
+The `assets/` directory is reserved for documentation images, diagrams, screenshots, and other visual resources.
+
+```text
+iloveigs-documentation/
+│
+├── README.md
+│
+├── docs/
+│   ├── getting-started.md
+│   ├── iges-files.md
+│   ├── step-files.md
+│   ├── cad-viewer.md
+│   ├── measurement-tools.md
+│   ├── drafting.md
+│   └── troubleshooting.md
+│
+├── guides/
+│   ├── iges-vs-step.md
+│   ├── how-to-open-iges.md
+│   └── cad-file-viewer-guide.md
+│
+├── examples/
+└── assets/
+```
 
 ---
 
-## ❤️ About This Project
+# 🧩 Supported Formats
 
-iLoveIGS is built to make CAD inspection and technical drawing workflows more accessible through the web.
+The documentation currently covers workflows around commonly encountered formats such as:
 
-The project focuses on practical engineering use cases and browser-based CAD tools.
+- **IGES / IGS** — `.igs`, `.iges`
+- **STEP / STP** — `.step`, `.stp`
+- **STL** — `.stl`
+- **DXF** — `.dxf`
+- **DWG** — `.dwg`
+- **PDF** — `.pdf`
+
+Actual support and available operations depend on the current iLoveIGS application and the characteristics of the file being opened.
+
+---
+
+# 🛠️ Technology Overview
+
+The iLoveIGS ecosystem uses modern browser technologies for CAD visualization and document workflows. Depending on the feature, the technology stack includes:
+
+- **Three.js / WebGL** — 3D rendering and visualization
+- **OpenCASCADE-based WebAssembly tooling** — CAD geometry processing for supported formats
+- **occt-import-js** — WebAssembly-based CAD import tooling
+- **DXF parsing technology** — 2D CAD data workflows
+- **PDF.js** — PDF rendering workflows
+- **HTML, CSS & JavaScript** — Browser application and interface
+
+Third-party projects remain governed by their own licenses and documentation.
+
+---
+
+# 🎯 Who Is This For?
+
+This documentation is especially useful for:
+
+- 👷 Mechanical engineers
+- 🧑‍💻 CAD designers
+- ⚙️ CNC programmers
+- 🏭 VMC machinists
+- 🛠️ Manufacturing engineers
+- 📐 Tool and die designers
+- 🎓 Engineering students
+- 🧪 Prototype and product teams
+- 🔧 CAD/CAM professionals
+- 📋 Teams reviewing supplier or customer CAD data
+
+---
+
+# 🔍 A Practical CAD Inspection Workflow
+
+A typical workflow looks like this:
+
+**1. Receive the file** → **2. Open it in iLoveIGS** → **3. Fit the model** → **4. Check standard views** → **5. Inspect geometry** → **6. Measure important features** → **7. Create/review drawing views** → **8. Verify against authoritative engineering data**
+
+This repository explains each stage in more detail so that the documentation remains useful beyond the application itself.
+
+---
+
+# 🤝 Documentation Principles
+
+We aim to keep this project:
+
+- ✅ Practical rather than promotional
+- ✅ Clear enough for beginners
+- ✅ Detailed enough for experienced CAD users
+- ✅ Honest about limitations and file-format differences
+- ✅ Focused on real engineering workflows
+- ✅ Easy to navigate and maintain
+
+For manufacturing-critical decisions, always verify dimensions and requirements against the authoritative CAD model, engineering drawing, specification, or other controlled source.
+
+---
+
+# 🌐 iLoveIGS
+
+**Try the live application:**
+
+👉 https://www.iloveigs.com/
+
+The website is the current source for the latest available tools and supported workflows.
+
+---
+
+## ❤️ Built for the CAD Community
+
+iLoveIGS is focused on making everyday CAD inspection more accessible through the browser — whether you are at a workstation, on a laptop, using a tablet, or checking something from a phone.
 
 <p align="center">
-  <strong>Explore CAD. Inspect Geometry. Create Drawings.</strong>
+  <strong>Open CAD. Inspect Geometry. Understand Your Model.</strong>
   <br><br>
-  <a href="https://www.iloveigs.com/">
-    🌐 Try iLoveIGS
-  </a>
+  <a href="https://www.iloveigs.com/">🌐 Explore iLoveIGS</a>
 </p>
