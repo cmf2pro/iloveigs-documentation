@@ -1,43 +1,114 @@
-# Online CAD Viewer Guide
+# 🧊 CAD Viewer Controls
 
-A CAD viewer helps users inspect geometry without needing to perform a full CAD design operation.
+The iLoveIGS viewer is designed around practical CAD inspection: orient the model, fit it to the viewport, inspect surfaces and edges, and move between standard engineering views.
 
-[iLoveIGS](https://www.iloveigs.com/) is designed around browser-based CAD inspection workflows.
+🌐 **Live viewer:** https://www.iloveigs.com/
 
-## Viewer Workflow
+> ⚠️ Controls can vary by device and application mode. The table below describes the documented desktop interaction model.
 
-### 1. Load a Supported File
+---
 
-Open the iLoveIGS application and load a supported CAD file.
+## 🖱️ Desktop Mouse Controls
 
-### 2. Fit the Model
+| Action | Mouse input | What it does |
+| :--- | :--- | :--- |
+| **Select** | Left click | Selects available geometry or activates an interactive target. |
+| **Window Select** | Left-button drag, left → right | Selects geometry fully contained within the selection window where supported. |
+| **Crossing Select** | Left-button drag, right → left | Selects geometry crossed by the selection window where supported. |
+| **Pan** | Middle-button drag | Moves the camera across the model. |
+| **Orbit / Rotate** | Right-button drag | Rotates the model around the viewing target. |
+| **Context Menu** | Right click / release | Opens available contextual commands where supported. |
+| **Zoom** | Scroll wheel | Moves the camera closer to or farther from the model. |
+| **Fit** | Fit command / double click where supported | Frames the model or selected geometry in the viewport. |
 
-Fit the model to the viewport so the complete geometry is visible.
+---
 
-### 3. Change Standard Views
+## 🎨 Display Modes
 
-Use standard engineering views such as Front, Back, Left, Right, Top, Bottom, and Isometric when available.
+Different display modes are useful for different inspection tasks.
 
-### 4. Inspect Geometry
+### 🧊 Shaded
 
-Orbit, pan, and zoom around the model to examine features, surfaces, edges, and overall shape.
+Displays the model using surface shading. This is useful when you want to understand overall form and surface continuity.
 
-### 5. Measure
+### 🧊➕〰️ Shaded + Edges
 
-Use available measurement tools to check distances and coordinate differences.
+Combines shaded surfaces with visible model edges. This can make pockets, steps, holes, boundaries, and other geometric features easier to interpret.
 
-### 6. Create Drawing Views
+### 🕸️ Wireframe
 
-Where supported, move from 3D inspection into a technical drawing workflow.
+Displays the model using line-based geometry where supported. Wireframe can be useful when you need to see through the model or inspect the underlying representation.
 
-## Why Browser-Based CAD Viewing Is Useful
+---
 
-A browser-based viewer can be useful when you need to quickly review a CAD file on a machine where a full desktop CAD package is not installed.
+## 🧭 Standard Views
 
-It can also be useful for sharing a simple inspection workflow with colleagues, suppliers, students, and manufacturing teams.
+Standard views provide a consistent way to inspect engineering geometry.
 
-## Related
+Typical views include:
+
+- **Front**
+- **Back**
+- **Left**
+- **Right**
+- **Top**
+- **Bottom**
+- **Isometric**
+
+### Why standard views matter
+
+When reviewing a model with another engineer, machinist, supplier, or customer, using a known orientation reduces ambiguity. Instead of saying “look from this side,” you can refer to a standard view.
+
+---
+
+## 🎯 Fit the Model
+
+After loading a file, fitting the model should usually be the first step.
+
+A fit operation helps ensure that:
+
+- The entire part is visible.
+- The camera is positioned appropriately.
+- Small or very large geometry is easier to inspect.
+
+If a model appears to be missing, try **Fit** before assuming that the file failed to load.
+
+---
+
+## 🔎 Practical Inspection Sequence
+
+For a typical mechanical part:
+
+**Fit → Isometric → Front → Top → Right → Orbit → Measure**
+
+For a complex assembly:
+
+**Fit → Isometric → standard views → zoom into critical areas → inspect geometry → measure selected features**
+
+---
+
+## 📱 Touch Devices
+
+On mobile phones and tablets, interaction can differ from a desktop mouse workflow because the browser receives touch gestures rather than separate mouse buttons.
+
+For detailed 3D work, a desktop or laptop may provide a more precise inspection experience, while mobile and tablet devices can be useful for quick review and reference.
+
+---
+
+## 🧠 CAD Inspection Tips
+
+- Keep a consistent model orientation when comparing features.
+- Use standard views before drawing conclusions about geometry.
+- Fit the model after changing to a new file.
+- Zoom into the feature before measuring it.
+- Use edge display when feature boundaries are difficult to see.
+- Verify critical manufacturing dimensions against authoritative engineering data.
+
+---
+
+## Related Documentation
 
 - [Getting Started](getting-started.md)
 - [Measurement Tools](measurement-tools.md)
-- [Technical Drafting](drafting.md)
+- [Technical Drawing & Drafting](drafting.md)
+- [Troubleshooting](troubleshooting.md)
